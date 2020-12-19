@@ -290,10 +290,10 @@ case 1:
 
     do
     {
-        cout << "\nnow To add more Element|\npress 1 and the Element will be the FIRST one \n";
-        cout << "press 2 and the Element will be the LAST one \n";
-        cout << "press 3 to ADD AT POSITION --Enter the POSITION and then Enter the ELEMENT-- \n";
-        cout << "press 4 To REMOVE Element : ";
+ cout << "\nnow To add more Element|\npress 1 and the Element will be the FIRST one \n";
+ cout << "press 2 and the Element will be the LAST one \n";
+   cout << "press 3 to ADD AT POSITION --Enter the POSITION and then Enter the ELEMENT-- \n";
+   cout << "press 4 To REMOVE Element : ";
         try
         {
             cin >> Choice;
