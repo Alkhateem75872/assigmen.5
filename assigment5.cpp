@@ -273,13 +273,13 @@ int main()
 Linked_List l; Stack s; Queue q; //objects
 int choice, pos, element, Choice;
 string Exit;
-cout << "Choose the NUMBER of What do you want to work with | 1-linked list| 2-stack | 3-queue: ";
+cout << "chose the  number of that you want to deal with | 1-linked list| 2-stack | 3-queue: ";
 cin >> choice;
 
     switch (choice)
 {
 case 1:
-    cout << "at first Add 3 Element to Linked List: "<<endl;
+    cout << " first Add in 3 Element to Linked List: "<<endl;
     for (int i = 1; i < 4; i++)
     {
         cout << "Enter The Element number "<<i<<": ";
@@ -328,7 +328,7 @@ case 1:
             
             else
             {
-                throw "Something went wrong!"; 
+                throw "Something is going wrong!"; 
             }
                 
         }
@@ -423,14 +423,14 @@ case 3:
             }
            q.printQ();
 
-    cout << "\nDo you want to Exit? | type (yes) to exit or (no) to continue : ";
+    cout << "\nDo you want to Exit? >> write yes to exit or no to continue : ";
     cin >> Exit;
     } while (Exit != "yes");
 
 break;
 
 default:
-    cout << "Something went wrong!";
+    cout << "error!";
     break;
 }
 
